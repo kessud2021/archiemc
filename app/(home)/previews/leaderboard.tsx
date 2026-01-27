@@ -4,7 +4,8 @@ import { MinecraftText } from "~/components/ui/minecraft-text";
 import { SkinHead } from "~/components/ui/skin";
 import { cn } from "~/lib/util";
 import { t } from "~/localize";
-import type { PostLeaderboardResponse } from "@statsify/api-client";
+
+type PostLeaderboardResponse = any;
 
 export function LeaderboardPreview({
   leaderboard,

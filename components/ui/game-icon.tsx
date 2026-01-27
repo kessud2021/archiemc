@@ -39,7 +39,8 @@ import VAMPIREZ from "~/public/games/VAMPIREZ.png";
 import WALLS from "~/public/games/WALLS.png";
 import WARLORDS from "~/public/games/WARLORDS.png";
 import WOOLGAMES from "~/public/games/WOOLGAMES.png";
-import type { GameCode } from "@statsify/schemas";
+
+type GameCode = any;
 
 const GameIcons = {
   ARCADE,

@@ -16,7 +16,8 @@ import { SkyWarsPreview } from "../previews/skywars";
 import { Tab, Tabs } from "~/components/ui/tabs";
 import { cn } from "~/lib/util";
 import { useState } from "react";
-import type { Player } from "@statsify/schemas";
+
+type Player = any;
 
 const games = [
   {

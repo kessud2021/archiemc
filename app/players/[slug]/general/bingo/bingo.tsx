@@ -23,8 +23,9 @@ import { Tab, Tabs } from "~/components/ui/tabs";
 import { cn } from "~/lib/util";
 import { useUrlState } from "~/hooks/use-url-state";
 import { z } from "zod";
-import type { Player } from "@statsify/schemas";
 import type { StaticImport } from "next/dist/shared/lib/get-img-props";
+
+type Player = any;
 
 export const FormattedCategories: Record<Category, string> = {
   casual: "Casual",

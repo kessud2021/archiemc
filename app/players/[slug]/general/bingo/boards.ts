@@ -6,7 +6,7 @@
  * https://github.com/Statsify/statsify/blob/main/LICENSE
  */
 
-import type { Bingo } from "@statsify/schemas";
+type Bingo = any;
 
 export type Difficulty = Exclude<keyof Bingo, "bucks">;
 export type Category = keyof Bingo[Difficulty];

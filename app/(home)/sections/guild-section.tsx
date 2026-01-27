@@ -12,7 +12,8 @@ import { TableData } from "~/components/ui/table";
 import { cn } from "~/lib/util";
 import { formatDate } from "date-fns";
 import { t } from "~/localize";
-import type { Guild } from "@statsify/schemas";
+
+type Guild = any;
 
 export function GuildSection({ guild }: { guild: Guild }) {
   return (

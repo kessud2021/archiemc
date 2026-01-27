@@ -2,7 +2,8 @@ import { BaseSection } from "./base-section";
 import { Command } from "~/components/ui/command";
 import { PlayerProvider } from "~/app/players/[slug]/context";
 import { SessionAnimation } from "../session-animation";
-import type { Player } from "@statsify/schemas";
+
+type Player = any;
 
 export function SessionSection({ player }: { player: Player }) {
   return (

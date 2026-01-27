@@ -9,7 +9,8 @@
 "use client";
 
 import { type ReactNode, createContext, use } from "react";
-import type { Player } from "@statsify/schemas";
+
+type Player = any;
 
 const PlayerContext = createContext<{ player: Player | undefined }>({
   player: undefined,

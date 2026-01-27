@@ -3,7 +3,8 @@
 import { BaseSection } from "./base-section";
 import { Command } from "~/components/ui/command";
 import { LeaderboardPreview } from "../previews/leaderboard";
-import type { PostLeaderboardResponse } from "@statsify/api-client";
+
+type PostLeaderboardResponse = any;
 
 export function LeaderboardSection({
   leaderboard,

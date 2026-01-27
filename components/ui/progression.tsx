@@ -9,7 +9,8 @@
 import { Box } from "./box";
 import { MinecraftText } from "./minecraft-text";
 import { t } from "~/localize";
-import type { Progression as ProgressionSchema } from "@statsify/schemas";
+
+type ProgressionSchema = any;
 
 const minigameXpBar = (percentage: number) => {
   const max = 10;
