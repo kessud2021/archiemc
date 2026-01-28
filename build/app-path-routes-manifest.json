@@ -1,8 +1,0 @@
-{
-  "/(home)/page": "/",
-  "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found",
-  "/favicon.ico/route": "/favicon.ico",
-  "/opengraph-image.png/route": "/opengraph-image.png",
-  "/twitter-image.png/route": "/twitter-image.png"
-}

@@ -35,7 +35,7 @@ export function ArcadePreview({ className }: { className?: string }) {
     ["Galaxy Wars", arcade.galaxyWars.wins],
     ["Hide And Seek", arcade.hideAndSeek.overall.wins],
     ["Hole In The Wall", arcade.holeInTheWall.wins],
-    ["Hypixel Says", arcade.hypixelSays.wins],
+    ["Archie Says", arcade.ArchieSays.wins],
     ["Mini Walls", arcade.miniWalls.wins],
     ["Party Games", arcade.partyGames.wins],
     ["Pixel Painters", arcade.pixelPainters.wins],

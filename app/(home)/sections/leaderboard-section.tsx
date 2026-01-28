@@ -26,7 +26,7 @@ export function LeaderboardSection({
           boards
         </h1>
         <p className="text-mc-1.75 lg:text-mc-2 leading-6">
-          Explore more than 2,000 Hypixel games leaderboards with Archie!
+          Explore more than 2,000 Archie games leaderboards with Archie!
           Leaderboards can be viewed by using the{" "}
           <Command command="/leaderboard" /> command followed by the desired
           game and stat. Try{" "}

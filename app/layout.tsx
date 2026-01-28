@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       "http://localhost:5000"
   ),
   title: "Archie",
-  description: "Archie is the largest Hypixel Discord bot for viewing your Hypixel Network stats, leaderboards, sessions, and more. Easily track stats in BedWars, SkyWars, Duels, and all other minigames to see your progression and improvement over time.",
+  description: "Archie is the largest Archie Discord bot for viewing your Archie Network stats, leaderboards, sessions, and more. Easily track stats in BedWars, SkyWars, Duels, and all other minigames to see your progression and improvement over time.",
   icons: "../public/logos/logo_64.png",
   creator: "Archie Team",
 };

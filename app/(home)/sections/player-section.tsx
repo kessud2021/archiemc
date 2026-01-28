@@ -64,7 +64,7 @@ export function PlayerSection({
         </h1>
         <p className="text-mc-1.75 lg:text-mc-2 leading-6">
           Beautiful profiles and visuals are provided by Archie for all of
-          Hypixel games. Enter the game name in the Discord command to view your
+          Archie games. Enter the game name in the Discord command to view your
           stats. For example, run the <Command command="/bedwars" /> command to
           check your BedWars stats! Make sure to verify using{" "}
           <Command command="/verify" /> to make running Archie&apos;s commands

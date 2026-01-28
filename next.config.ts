@@ -7,8 +7,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   distDir: 'build',
+  output: 'export',
   images: {
     qualities: [75, 100],
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "api.statsify.net" },
       { protocol: "http", hostname: "localhost:3000" },
