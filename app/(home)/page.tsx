@@ -85,7 +85,7 @@ export default async function Home() {
 function DiscordInvite({ className = "" }: { className?: string }) {
   return (
     <Button className={`content:bg-discord-500 ${className}`} asChild>
-      <Link href="/invite" prefetch={false}>
+      <Link href="https://discord.com/oauth2/authorize?client_id=1454187186651009116&permissions=6144&scope=bot%20applications.commands" prefetch={false}>
         <Discord className="drop-shadow-mc-1" />
         <p className="text-nowrap">Try On Discord</p>
       </Link>
